@@ -2,8 +2,11 @@
 
 ## Part 1: Problem Understanding
 
-> **Write this yourself, without AI, 150–250 words.** Not drafted here on purpose.
-> Cover: what problem this solves, who uses it (customer booking via chat + admin managing bookings), and the two key flows (customer books/cancels/reschedules via natural language; admin views and cancels appointments from a table).
+Booking an appointment is usually a simple task, but the process can become inconvenient when users have to fill out forms, select multiple fields, or go through several steps just to find a suitable time. It can also be difficult to handle changes later, such as cancelling an appointment, rescheduling it, or finding out that the requested time is already occupied.
+This project aims to make appointment booking more natural and easier by allowing users to interact with a chat-based assistant instead of filling out a traditional booking form. A customer can simply describe what they want in normal language, such as wanting to book a particular service on a certain day and time. If some important information is missing or unclear, the assistant asks a simple follow-up question instead of making assumptions. The user can also cancel or reschedule an existing appointment through the same conversation.
+There is also a separate admin flow for managing the appointments. An administrator can view the bookings in one place and manage them when required. The system also checks whether a requested slot is already booked, helping avoid double bookings.
+
+Overall, the goal of the project is to make appointment management feel more like a normal conversation while keeping the booking process organized and reliable for both customers and administrators.
 
 ---
 
